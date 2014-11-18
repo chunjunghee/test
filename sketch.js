@@ -3,6 +3,7 @@
    background(0);
    noStroke();
    noFill();
+}
 
  //snow
      fill(Math.random()*255,Math.random()*255,Math.random()*255,100);
