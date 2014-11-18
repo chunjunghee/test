@@ -1,14 +1,16 @@
- var dir1=1;
+var dir1=1;
 
- function setup() {
+function setup() {
    createCanvas(1500, 1650);
    background(0);
 
 }
+
 function draw (){
      background(0);
      drawSnow();
 }
+
 
 function drawSnow(){
     var r=Math.random();
@@ -32,8 +34,8 @@ function drawSnow(){
     ellipse(1400,dir1+400,27,27);
     ellipse(1500,dir1+777,35,35);
     dir1=dir1+3;     
-    if(dir1>1700){
-     dir1=-1700;
+    if(dir1>600){
+     dir1=-600;
  }
 
 }
