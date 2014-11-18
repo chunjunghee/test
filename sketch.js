@@ -5,6 +5,9 @@
    background(0);
 
 }
+function draw (){
+     drawSnow();
+}
 
 function drawSnow(){
     var r=Math.random();
