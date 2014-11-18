@@ -31,3 +31,5 @@ function drawSnow(){
     if(dir1>1700){
      dir1=-1700;
  }
+
+}
