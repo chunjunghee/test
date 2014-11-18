@@ -5,23 +5,30 @@
    noFill();
 }
 
- //snow
-     fill(Math.random()*255,Math.random()*255,Math.random()*255,100);
-     var y;
-     y=300;
-     
-     rect(20,180,1*x,1*x);
-     rect(120,80,15,15);
-     //rect(180,200,13,13);
-     rect(270,100,15,15);
-     rect(400,10,18,18);
-     rect(500,200,12,12);
-     rect(650,80,1*x,1*x);
-     rect(800,350,14,14);
-     rect(950,140,12,12);
-     rect(1000,20,15,15);
-     rect(1100,190,18,18);
-     rect(1300,250,16,16);
-     rect(1450,50,15,15);
 
-}
+function drawSnow(){
+    var r=Math.random();
+    stroke(255,255,255,128);
+    strokeWeight(20);
+
+    fill(255);
+    ellipse(700,dir1,50,50);
+    ellipse(100,dir1+500,20,20);
+    ellipse(200,dir1+r,30,30);
+    ellipse(300,dir1+800,25,25);
+    ellipse(400,dir1+100,20,20);
+    ellipse(500,dir1+350,34,34);
+    ellipse(600,dir1+270,47,47);
+    ellipse(800,dir1+900,25,25);
+    ellipse(900,dir1+670,34,34);
+    ellipse(1000,dir1+230,17,17);
+    ellipse(1100,dir1+590,28,28);
+    ellipse(1200,dir1+312,33,33);
+    ellipse(1300,dir1+100,50,50);
+    ellipse(1400,dir1+400,27,27);
+    ellipse(1500,dir1+777,35,35);
+    dir1=dir1+3;     
+    if(dir1>1700){
+     dir1=-1700;
+ }
+
