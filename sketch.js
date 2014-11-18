@@ -6,14 +6,13 @@
 
 }
 function draw (){
-     background(255,49,108);
      background(0);
      drawSnow();
 }
 
 function drawSnow(){
     var r=Math.random();
-    stroke(255,255,255,128);
+    stroke(255,255,255,255);
     strokeWeight(20);
 
     fill(255);
