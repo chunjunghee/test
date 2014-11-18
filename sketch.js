@@ -35,7 +35,7 @@ function drawSnow(){
     ellipse(1500,dir1+777,35,35);
     dir1=dir1+1;     
     if(dir1>100){
-     dir1=-600;
+     dir1=-800;
  }
 
 }
