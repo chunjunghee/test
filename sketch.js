@@ -6,6 +6,7 @@
 
 }
 function draw (){
+     background(255,49,108);
      background(0);
      drawSnow();
 }
